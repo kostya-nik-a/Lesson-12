@@ -1,12 +1,8 @@
 <?php
 
-$connect = mysqli_connect("localhost","root","","netology");
+$connect = mysqli_connect("localhost","akostyaeva","neto1548","global");
 mysqli_set_charset($connect, "utf8");
 
-if ($connect->connect_errno) {
-    printf("Не удалось подключиться: %s\n", $mysqli->connect_error);
-    exit();
-}
 
 $str = "";
 $where = "";
